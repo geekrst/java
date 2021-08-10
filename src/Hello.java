@@ -5,11 +5,11 @@ public class Hello {
 
         int myValue=10000;
 
-        int minValue= Integer.MIN_VALUE;
-        int maxValue=Integer.MAX_VALUE;
+        int minIntValue= Integer.MIN_VALUE;
+        int maxIntValue=Integer.MAX_VALUE;
 
-        System.out.println("Minimum value is :"+minValue);
-        System.out.println("Maximum value is :"+maxValue);
+        System.out.println("Minimum Int value is :"+minIntValue);
+        System.out.println("Maximum Int value is :"+maxIntValue);
 
         System.out.println("My Value is :"+myValue);
 
@@ -23,14 +23,28 @@ public class Hello {
         byte minByte= Byte.MIN_VALUE;
         byte maxByte=Byte.MAX_VALUE;
 
-        System.out.println("Minimum BYTE value is :"+minByte);
+        System.out.println("\nMinimum BYTE value is :"+minByte);
         System.out.println("Maximum BYTE value is :"+maxByte);
 
         short minShort= Short.MIN_VALUE;
         short maxShort=Short.MAX_VALUE;
 
-        System.out.println("Minimum Short value is :"+minShort);
+        System.out.println("\nMinimum Short value is :"+minShort);
         System.out.println("Maximum Short value is :"+maxShort);
+
+        long minLong= Long.MIN_VALUE;
+        long maxLong=Long.MAX_VALUE;
+
+        System.out.println("\nMinimum Long value is :"+minLong);
+        System.out.println("Maximum Long value is :"+maxLong);
+
+        float minFloat= Float.MIN_VALUE;
+        float maxFloat=Float.MAX_VALUE;
+
+        System.out.println("\nMinimum Float value is :"+minFloat);
+        System.out.println("Maximum Float value is :"+maxFloat);
+
+
 
 
 
