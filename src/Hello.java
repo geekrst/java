@@ -44,8 +44,11 @@ public class Hello {
         System.out.println("\nMinimum Float value is :"+minFloat);
         System.out.println("Maximum Float value is :"+maxFloat);
 
-
-
+        //Printing Different characters using their UNICODES
+        char myUnicodeD ='\u0044';
+        char myCopyrightChar='\u00a9';
+        System.out.println(myUnicodeD);
+        System.out.println(myCopyrightChar);
 
 
     }
