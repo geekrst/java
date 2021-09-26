@@ -25,6 +25,8 @@ public class Hello {
 
         System.out.println("\nMinimum BYTE value is :"+minByte);
         System.out.println("Maximum BYTE value is :"+maxByte);
+        byte newByte=(byte) (minByte/2);
+        System.out.println(newByte);
 
         short minShort= Short.MIN_VALUE;
         short maxShort=Short.MAX_VALUE;
@@ -44,6 +46,12 @@ public class Hello {
         System.out.println("\nMinimum Float value is :"+minFloat);
         System.out.println("Maximum Float value is :"+maxFloat);
 
+        float newFloat=(float) 5.255;
+
+        double newDouble=5.25;
+
+        System.out.println(newFloat);
+        System.out.println(newDouble);
         //Printing Different characters using their UNICODES
         char myUnicodeD ='\u0044';
         char myCopyrightChar='\u00a9';
